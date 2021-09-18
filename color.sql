@@ -1,5 +1,5 @@
 /*
--- Query: SELECT * FROM projector.color
+-- Query: SELECT * FROM project.color
 LIMIT 0, 1000
 
 -- Date: 2021-09-02 16:12

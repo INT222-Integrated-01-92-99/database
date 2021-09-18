@@ -1,5 +1,5 @@
 /*
--- Query: SELECT * FROM projector.cart
+-- Query: SELECT * FROM project.cart
 LIMIT 0, 1000
 
 -- Date: 2021-09-02 16:11
