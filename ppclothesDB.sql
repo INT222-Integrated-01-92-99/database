@@ -356,11 +356,7 @@ CREATE INDEX `fk_ReceiptDetails_Receipt1_idx` ON `project`.`ReceiptDetails` (`id
 
 CREATE UNIQUE INDEX `idReceiptDetails_UNIQUE` ON `project`.`ReceiptDetails` (`idReceiptDetails` ASC) VISIBLE;
 
-CREATE UNIQUE INDEX `proName_UNIQUE` ON `project`.`ReceiptDetails` (`proName` ASC) VISIBLE;
-
 CREATE INDEX `fk_ReceiptDetails_Color1_idx` ON `project`.`ReceiptDetails` (`idColor` ASC) VISIBLE;
-
-CREATE UNIQUE INDEX `brandName_UNIQUE` ON `project`.`ReceiptDetails` (`brandName` ASC) VISIBLE;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
